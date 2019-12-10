@@ -6,6 +6,17 @@
 
 In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
 
+### Here Is What I Think Is Supposed To Happen
+* Make a repo
+* clone it
+* Add heroku app
+* Add heroku mongo (somehow)
+* ~Magic~
+* Watch video
+* Find a working version
+* ~ M a g i c ~
+* Turn in
+
 ### Before You Begin
 
 1. Create a GitHub repo for this assignment and clone it to your computer. Any name will do -- just make sure it's related to this project in some fashion.
