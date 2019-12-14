@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Scrape = require('../models/Scrape');
+const Scrape = require('../models/scrapes');
 
 router.get('/', function (req, res){
     Scrape.find({})
