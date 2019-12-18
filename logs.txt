@@ -1,64 +1,3 @@
-2019-12-18T01:01:39.163502+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
-2019-12-18T01:01:39.163504+00:00 app[web.1]: at Socket.emit (events.js:210:5)
-2019-12-18T01:01:39.163506+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
-2019-12-18T01:01:39.163508+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-2019-12-18T01:01:39.163510+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
-2019-12-18T01:01:39.163566+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-12-18T01:01:39.163625+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-12-18T01:01:39.703202+00:00 heroku[web.1]: State changed from starting to up
-2019-12-18T01:02:06.599029+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=21597435-7a13-4614-8a6d-22a2054b5b0b fwd="141.166.128.227" dyno=web.1 connect=0ms service=16ms status=200 bytes=1418 protocol=https
-2019-12-18T01:02:06.601905+00:00 app[web.1]: [0mGET / [32m200 [0m7.309 ms - 1129[0m
-2019-12-18T01:02:06.736199+00:00 app[web.1]: [0mGET /app.js [32m200 [0m1.150 ms - 2351[0m
-2019-12-18T01:02:06.742873+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=e69cdaba-8aad-439f-9109-d7db045cbe84 fwd="141.166.128.227" dyno=web.1 connect=0ms service=3ms status=200 bytes=2653 protocol=https
-2019-12-18T01:02:06.938012+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=newsscrape-fka.herokuapp.com request_id=37f42912-34ac-41cf-8b78-c3ba52edb608 fwd="141.166.128.227" dyno=web.1 connect=0ms service=4ms status=404 bytes=394 protocol=https
-2019-12-18T01:02:06.937779+00:00 app[web.1]: [0mGET /favicon.ico [33m404 [0m2.277 ms - 150[0m
-2019-12-18T01:02:27.943414+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=bbd49da3-d760-4b79-bc1a-0fd70665b672 fwd="141.166.128.227" dyno=web.1 connect=0ms service=309ms status=302 bytes=234 protocol=https
-2019-12-18T01:02:27.994300+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=96f9c00b-dcdb-45f5-a637-6dd2f9532037 fwd="141.166.128.227" dyno=web.1 connect=1ms service=20ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:28.036868+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=1eab31c7-8a1f-404b-8f5b-fb8f8648a1ae fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:27.945271+00:00 app[web.1]: [0mGET /scrape [36m302 [0m303.664 ms - 46[0m
-2019-12-18T01:02:27.987304+00:00 app[web.1]: [0mGET / [36m304 [0m2.013 ms - -[0m
-2019-12-18T01:02:28.036426+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.636 ms - -[0m
-2019-12-18T01:02:36.919188+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=31577aba-7a08-4563-b21e-ef41dfa6abe0 fwd="141.166.128.227" dyno=web.1 connect=0ms service=30003ms status=503 bytes=0 protocol=https
-2019-12-18T01:02:36.921237+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:02:47.083139+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=cf1bf644-82b6-4cf5-9274-388b2b81491f fwd="141.166.128.227" dyno=web.1 connect=0ms service=127ms status=302 bytes=234 protocol=https
-2019-12-18T01:02:47.085166+00:00 app[web.1]: [0mGET /scrape [36m302 [0m125.954 ms - 46[0m
-2019-12-18T01:02:47.152570+00:00 app[web.1]: [0mGET / [36m304 [0m0.705 ms - -[0m
-2019-12-18T01:02:47.229498+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.714 ms - -[0m
-2019-12-18T01:02:47.152167+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=a060564f-7b54-4ab3-a252-e486e73294dc fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:47.229222+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=66e1bf46-0705-4dd5-9a5d-b2ee1bfcaf7f fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:49.023463+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=9b5c5a44-d36c-47a5-973e-6824eb8449a3 fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:48.990374+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=a3033af3-b0d4-47bc-bfe5-3a7876f210e6 fwd="141.166.128.227" dyno=web.1 connect=1ms service=104ms status=302 bytes=234 protocol=https
-2019-12-18T01:02:49.128863+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=22a2ce23-b33c-404b-94dd-53126cd65072 fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:02:48.989269+00:00 app[web.1]: [0mGET /scrape [36m302 [0m101.910 ms - 46[0m
-2019-12-18T01:02:49.024195+00:00 app[web.1]: [0mGET / [36m304 [0m0.432 ms - -[0m
-2019-12-18T01:02:49.128179+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.441 ms - -[0m
-2019-12-18T01:02:58.081356+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=30ebeabc-7d64-4ec2-b51b-aed5a225ec6a fwd="141.166.128.227" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:02:58.082703+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:03:01.236083+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=49f5d6e5-18bf-43d9-a972-47d4803a9f43 fwd="141.166.128.227" dyno=web.1 connect=1ms service=88ms status=302 bytes=234 protocol=https
-2019-12-18T01:03:01.261485+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=486e09bc-9362-471f-802f-7120fc81cb05 fwd="141.166.128.227" dyno=web.1 connect=0ms service=1ms status=304 bytes=237 protocol=https
-2019-12-18T01:03:01.238125+00:00 app[web.1]: [0mGET /scrape [36m302 [0m87.432 ms - 46[0m
-2019-12-18T01:03:01.261140+00:00 app[web.1]: [0mGET / [36m304 [0m0.394 ms - -[0m
-2019-12-18T01:03:01.349294+00:00 app[web.1]: [0mGET /app.js [36m304 [0m1.411 ms - -[0m
-2019-12-18T01:03:01.349798+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=23a0ba9f-cf35-4ee2-ad64-798d0154a4b6 fwd="141.166.128.227" dyno=web.1 connect=0ms service=3ms status=304 bytes=237 protocol=https
-2019-12-18T01:03:17.303959+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=8b766dcd-d2ae-4ae1-9487-9fdbb5b431de fwd="141.166.128.227" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:03:17.305695+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:03:19.233829+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=1ee3b91c-7373-46f3-a728-e55833fdd6e3 fwd="141.166.128.227" dyno=web.1 connect=1ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:03:19.235489+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:03:19.485490+00:00 app[web.1]: [0mGET /scrape [36m302 [0m72.824 ms - 46[0m
-2019-12-18T01:03:19.486253+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=dcf595c4-122c-4070-9bb0-02d026693af7 fwd="141.166.128.227" dyno=web.1 connect=0ms service=77ms status=302 bytes=234 protocol=https
-2019-12-18T01:03:19.519840+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=bd744a00-7baf-42fd-a405-d7f7b848195e fwd="141.166.128.227" dyno=web.1 connect=1ms service=1ms status=304 bytes=237 protocol=https
-2019-12-18T01:03:19.581519+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=d0fb15cd-58a5-4304-9c0c-b8ca8c3b124b fwd="141.166.128.227" dyno=web.1 connect=0ms service=1ms status=304 bytes=237 protocol=https
-2019-12-18T01:03:19.519817+00:00 app[web.1]: [0mGET / [36m304 [0m0.443 ms - -[0m
-2019-12-18T01:03:19.581362+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.388 ms - -[0m
-2019-12-18T01:03:31.470301+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:03:31.468705+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=10e064da-00d8-43db-8393-477fb643fe79 fwd="141.166.128.227" dyno=web.1 connect=0ms service=30001ms status=503 bytes=0 protocol=https
-2019-12-18T01:03:49.647814+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=6b5a11e7-7aca-4415-a568-bc6f425b369c fwd="141.166.128.227" dyno=web.1 connect=0ms service=30001ms status=503 bytes=0 protocol=https
-2019-12-18T01:03:49.649324+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:04:28.690183+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=311169ed-7431-436c-a7bd-33bd0068e7f0 fwd="141.166.128.227" dyno=web.1 connect=1ms service=168ms status=302 bytes=234 protocol=https
-2019-12-18T01:04:28.715318+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=ebada8b6-fd0c-4fd5-aa46-34e370da7730 fwd="141.166.128.227" dyno=web.1 connect=0ms service=1ms status=304 bytes=237 protocol=https
-2019-12-18T01:04:28.695169+00:00 app[web.1]: [0mGET /scrape [36m302 [0m166.624 ms - 46[0m
-2019-12-18T01:04:28.715559+00:00 app[web.1]: [0mGET / [36m304 [0m0.378 ms - -[0m
-2019-12-18T01:04:28.787635+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.690 ms - -[0m
 2019-12-18T01:04:28.787124+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=27691408-5c72-4965-a7ba-74c8ba0adefe fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
 2019-12-18T01:04:34.047037+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=81675f3b-a30f-4ba5-8e6d-dbfc6e344307 fwd="141.166.128.227" dyno=web.1 connect=1ms service=93ms status=302 bytes=234 protocol=https
 2019-12-18T01:04:34.083351+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=2cd6c7aa-9b75-45a4-9a6e-b3da567f5f4e fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
@@ -98,3 +37,64 @@
 2019-12-18T02:27:16.635113+00:00 app[api]: Deploy d93b7cc8 by user mckiyoshi@gmail.com
 2019-12-18T02:27:17.000000+00:00 app[api]: Build succeeded
 2019-12-18T02:27:20.763355+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-12-18T02:27:24.709725+00:00 app[web.1]: 
+2019-12-18T02:27:24.709750+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
+2019-12-18T02:27:24.709752+00:00 app[web.1]: > node server.js
+2019-12-18T02:27:24.709754+00:00 app[web.1]: 
+2019-12-18T02:27:27.128344+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-12-18T02:27:27.129719+00:00 app[web.1]: App running on port 25326!
+2019-12-18T02:27:27.162942+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+2019-12-18T02:27:27.162946+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+2019-12-18T02:27:27.162949+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-12-18T02:27:27.162952+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-12-18T02:27:27.162954+00:00 app[web.1]: }]
+2019-12-18T02:27:27.162956+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+2019-12-18T02:27:27.162958+00:00 app[web.1]: at Pool.emit (events.js:210:5)
+2019-12-18T02:27:27.162960+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
+2019-12-18T02:27:27.162962+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
+2019-12-18T02:27:27.162965+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
+2019-12-18T02:27:27.162967+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+2019-12-18T02:27:27.162969+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+2019-12-18T02:27:27.162971+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-12-18T02:27:27.162973+00:00 app[web.1]: at Socket.emit (events.js:210:5)
+2019-12-18T02:27:27.162975+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
+2019-12-18T02:27:27.162977+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+2019-12-18T02:27:27.162979+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2019-12-18T02:27:27.165009+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-18T02:27:27.165148+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-18T02:27:27.669003+00:00 heroku[web.1]: State changed from starting to up
+2019-12-18T02:29:24.000000+00:00 app[api]: Build started by user mckiyoshi@gmail.com
+2019-12-18T02:29:39.169044+00:00 app[api]: Release v13 created by user mckiyoshi@gmail.com
+2019-12-18T02:29:39.169044+00:00 app[api]: Deploy c1b211b7 by user mckiyoshi@gmail.com
+2019-12-18T02:29:39.753094+00:00 heroku[web.1]: Restarting
+2019-12-18T02:29:39.767462+00:00 heroku[web.1]: State changed from up to starting
+2019-12-18T02:29:40.000000+00:00 app[api]: Build succeeded
+2019-12-18T02:29:41.837017+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-12-18T02:29:42.315754+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-12-18T02:29:42.432415+00:00 heroku[web.1]: Process exited with status 143
+2019-12-18T02:29:43.728654+00:00 app[web.1]: 
+2019-12-18T02:29:43.728679+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
+2019-12-18T02:29:43.728682+00:00 app[web.1]: > node server.js
+2019-12-18T02:29:43.728684+00:00 app[web.1]: 
+2019-12-18T02:29:44.344639+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-12-18T02:29:44.345387+00:00 app[web.1]: App running on port 19100!
+2019-12-18T02:29:44.355284+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+2019-12-18T02:29:44.355286+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+2019-12-18T02:29:44.355288+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-12-18T02:29:44.355290+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-12-18T02:29:44.355292+00:00 app[web.1]: }]
+2019-12-18T02:29:44.355294+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+2019-12-18T02:29:44.355295+00:00 app[web.1]: at Pool.emit (events.js:210:5)
+2019-12-18T02:29:44.355297+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
+2019-12-18T02:29:44.355298+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
+2019-12-18T02:29:44.355300+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
+2019-12-18T02:29:44.355301+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+2019-12-18T02:29:44.355303+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+2019-12-18T02:29:44.355305+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-12-18T02:29:44.355306+00:00 app[web.1]: at Socket.emit (events.js:210:5)
+2019-12-18T02:29:44.355308+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
+2019-12-18T02:29:44.355309+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+2019-12-18T02:29:44.355311+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2019-12-18T02:29:44.355394+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-18T02:29:44.355537+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-18T02:29:44.845913+00:00 heroku[web.1]: State changed from starting to up
