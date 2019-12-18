@@ -1,0 +1,100 @@
+2019-12-17T23:19:44.419612+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-12-17T23:19:46.176211+00:00 app[web.1]: 
+2019-12-17T23:19:46.176226+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
+2019-12-17T23:19:46.176228+00:00 app[web.1]: > node server.js
+2019-12-17T23:19:46.176232+00:00 app[web.1]: 
+2019-12-17T23:19:46.724928+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-12-17T23:19:46.725604+00:00 app[web.1]: App running on port 3000!
+2019-12-17T23:19:46.744479+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+2019-12-17T23:19:46.744481+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+2019-12-17T23:19:46.744483+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-12-17T23:19:46.744485+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-12-17T23:19:46.744487+00:00 app[web.1]: }]
+2019-12-17T23:19:46.744488+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+2019-12-17T23:19:46.744490+00:00 app[web.1]: at Pool.emit (events.js:210:5)
+2019-12-17T23:19:46.744491+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
+2019-12-17T23:19:46.744493+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
+2019-12-17T23:19:46.744495+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
+2019-12-17T23:19:46.744498+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+2019-12-17T23:19:46.744500+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+2019-12-17T23:19:46.744501+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-12-17T23:19:46.744503+00:00 app[web.1]: at Socket.emit (events.js:210:5)
+2019-12-17T23:19:46.744505+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
+2019-12-17T23:19:46.744506+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+2019-12-17T23:19:46.744508+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2019-12-17T23:19:46.744585+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-17T23:19:46.744654+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-17T23:20:45.040740+00:00 heroku[web.1]: State changed from starting to crashed
+2019-12-17T23:20:44.961726+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-12-17T23:20:44.961726+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-12-17T23:20:45.024445+00:00 heroku[web.1]: Process exited with status 137
+2019-12-18T00:57:13.000000+00:00 app[api]: Build started by user mckiyoshi@gmail.com
+2019-12-18T00:57:30.082135+00:00 heroku[web.1]: State changed from crashed to starting
+2019-12-18T00:57:29.840663+00:00 app[api]: Deploy 799a2901 by user mckiyoshi@gmail.com
+2019-12-18T00:57:29.840663+00:00 app[api]: Release v10 created by user mckiyoshi@gmail.com
+2019-12-18T00:57:30.000000+00:00 app[api]: Build succeeded
+2019-12-18T00:57:32.496328+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-12-18T00:57:34.465879+00:00 app[web.1]: 
+2019-12-18T00:57:34.465905+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
+2019-12-18T00:57:34.465908+00:00 app[web.1]: > node server.js
+2019-12-18T00:57:34.465910+00:00 app[web.1]: 
+2019-12-18T00:57:35.187637+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-12-18T00:57:35.188375+00:00 app[web.1]: App running on port 3000!
+2019-12-18T00:57:35.198214+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+2019-12-18T00:57:35.198219+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+2019-12-18T00:57:35.198221+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-12-18T00:57:35.198225+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-12-18T00:57:35.198227+00:00 app[web.1]: }]
+2019-12-18T00:57:35.198244+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+2019-12-18T00:57:35.198247+00:00 app[web.1]: at Pool.emit (events.js:210:5)
+2019-12-18T00:57:35.198249+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
+2019-12-18T00:57:35.198251+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
+2019-12-18T00:57:35.198254+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
+2019-12-18T00:57:35.198255+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+2019-12-18T00:57:35.198257+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+2019-12-18T00:57:35.198259+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-12-18T00:57:35.198261+00:00 app[web.1]: at Socket.emit (events.js:210:5)
+2019-12-18T00:57:35.198263+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
+2019-12-18T00:57:35.198265+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+2019-12-18T00:57:35.198268+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2019-12-18T00:57:35.198356+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-18T00:57:35.198481+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-18T00:58:32.565110+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-12-18T00:58:32.565183+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-12-18T00:58:32.724002+00:00 heroku[web.1]: State changed from starting to crashed
+2019-12-18T00:58:32.729248+00:00 heroku[web.1]: State changed from crashed to starting
+2019-12-18T00:58:32.710579+00:00 heroku[web.1]: Process exited with status 137
+2019-12-18T00:58:35.823074+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-12-18T00:58:38.606599+00:00 app[web.1]: 
+2019-12-18T00:58:38.606623+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
+2019-12-18T00:58:38.606626+00:00 app[web.1]: > node server.js
+2019-12-18T00:58:38.606628+00:00 app[web.1]: 
+2019-12-18T00:58:39.750532+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-12-18T00:58:39.751593+00:00 app[web.1]: App running on port 3000!
+2019-12-18T00:58:39.767645+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+2019-12-18T00:58:39.767650+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
+2019-12-18T00:58:39.767652+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-12-18T00:58:39.767655+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-12-18T00:58:39.767657+00:00 app[web.1]: }]
+2019-12-18T00:58:39.767659+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
+2019-12-18T00:58:39.767661+00:00 app[web.1]: at Pool.emit (events.js:210:5)
+2019-12-18T00:58:39.767663+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
+2019-12-18T00:58:39.767665+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
+2019-12-18T00:58:39.767667+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
+2019-12-18T00:58:39.767669+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
+2019-12-18T00:58:39.767671+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
+2019-12-18T00:58:39.767673+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-12-18T00:58:39.767675+00:00 app[web.1]: at Socket.emit (events.js:210:5)
+2019-12-18T00:58:39.767678+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
+2019-12-18T00:58:39.767679+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+2019-12-18T00:58:39.767681+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2019-12-18T00:58:39.767910+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-18T00:58:39.768083+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-18T00:59:13.610426+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=65ff4bf8-6198-4b43-8c93-fb693b3618d8 fwd="141.166.128.227" dyno= connect= service= status=503 bytes= protocol=https
+2019-12-18T00:59:36.146846+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2019-12-18T00:59:36.147051+00:00 heroku[web.1]: Stopping process with SIGKILL
+2019-12-18T00:59:36.172614+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2019-12-18T00:59:36.284142+00:00 heroku[web.1]: State changed from starting to crashed
+2019-12-18T00:59:36.268678+00:00 heroku[web.1]: Process exited with status 22
+2019-12-18T00:59:36.826202+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=ed7eb767-e4b9-434f-a256-40c8bf06856e fwd="141.166.128.227" dyno= connect= service= status=503 bytes= protocol=https
+2019-12-18T00:59:37.352148+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=newsscrape-fka.herokuapp.com request_id=13fb5a6d-5aa5-446f-94a0-fcbf6793c5fb fwd="141.166.128.227" dyno= connect= service= status=503 bytes= protocol=https
