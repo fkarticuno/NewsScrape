@@ -1,100 +1,100 @@
-2019-12-18T01:04:28.787124+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=27691408-5c72-4965-a7ba-74c8ba0adefe fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:04:34.047037+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=81675f3b-a30f-4ba5-8e6d-dbfc6e344307 fwd="141.166.128.227" dyno=web.1 connect=1ms service=93ms status=302 bytes=234 protocol=https
-2019-12-18T01:04:34.083351+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=2cd6c7aa-9b75-45a4-9a6e-b3da567f5f4e fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:04:34.051054+00:00 app[web.1]: [0mGET /scrape [36m302 [0m91.056 ms - 46[0m
-2019-12-18T01:04:34.083074+00:00 app[web.1]: [0mGET / [36m304 [0m0.537 ms - -[0m
-2019-12-18T01:04:34.155181+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.452 ms - -[0m
-2019-12-18T01:04:34.161640+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=e1581224-18de-423b-ab02-75c200a1cf77 fwd="141.166.128.227" dyno=web.1 connect=1ms service=8ms status=304 bytes=237 protocol=https
-2019-12-18T01:04:58.833936+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=03854fe1-5d68-40e4-93f6-4dcb75c861b1 fwd="141.166.128.227" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:04:58.835897+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:05:04.207756+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=e5af6dab-9b6d-44b3-9ec3-ff8fc86500be fwd="141.166.128.227" dyno=web.1 connect=0ms service=30001ms status=503 bytes=0 protocol=https
-2019-12-18T01:05:04.209184+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:06:52.640677+00:00 heroku[router]: at=info method=GET path="/scrape" host=newsscrape-fka.herokuapp.com request_id=10a699aa-8696-4478-9b62-c28107581fd9 fwd="141.166.128.227" dyno=web.1 connect=0ms service=179ms status=302 bytes=234 protocol=https
-2019-12-18T01:06:52.668640+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=6ea88d84-d74b-47d6-ae90-d43fe345e75f fwd="141.166.128.227" dyno=web.1 connect=1ms service=1ms status=304 bytes=237 protocol=https
-2019-12-18T01:06:52.642972+00:00 app[web.1]: [0mGET /scrape [36m302 [0m177.098 ms - 46[0m
-2019-12-18T01:06:52.668676+00:00 app[web.1]: [0mGET / [36m304 [0m0.379 ms - -[0m
-2019-12-18T01:06:52.738170+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.616 ms - -[0m
-2019-12-18T01:06:52.738252+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=5d2be849-758f-42eb-ad50-eed65c987a9c fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:07:22.829280+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=fbc99bc8-4c38-4667-bfc1-c3035c3b516e fwd="141.166.128.227" dyno=web.1 connect=0ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:07:22.831158+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:23:33.741713+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=aaf6ec80-343f-4a79-ae59-44a9bfe3b0dc fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:23:33.740966+00:00 app[web.1]: [0mGET / [36m304 [0m0.430 ms - -[0m
-2019-12-18T01:23:33.837071+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.385 ms - -[0m
-2019-12-18T01:23:33.837576+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=4df6d5f6-db9e-4634-bd11-59a65fcf4163 fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=304 bytes=237 protocol=https
-2019-12-18T01:23:45.580482+00:00 heroku[router]: at=info method=GET path="/articles:id" host=newsscrape-fka.herokuapp.com request_id=b67c0f57-de14-4e2a-929f-e7103cb84e42 fwd="141.166.128.227" dyno=web.1 connect=1ms service=2ms status=404 bytes=394 protocol=https
-2019-12-18T01:23:45.580669+00:00 app[web.1]: [0mGET /articles:id [33m404 [0m0.576 ms - 150[0m
-2019-12-18T01:24:04.096769+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=a46944df-23ef-4be6-92ba-056ae7ee780f fwd="141.166.128.227" dyno=web.1 connect=1ms service=30000ms status=503 bytes=0 protocol=https
-2019-12-18T01:24:04.098512+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:24:18.750860+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=eac280ad-580e-45c4-887c-c5ab22525965 fwd="141.166.128.227" dyno=web.1 connect=1ms service=30011ms status=503 bytes=0 protocol=https
-2019-12-18T01:24:18.753260+00:00 app[web.1]: [0mGET /articles [0m- [0m- ms - -[0m
-2019-12-18T01:57:58.681253+00:00 heroku[web.1]: Idling
-2019-12-18T01:57:58.684939+00:00 heroku[web.1]: State changed from up to down
-2019-12-18T01:57:59.636527+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2019-12-18T01:57:59.721386+00:00 heroku[web.1]: Process exited with status 143
-2019-12-18T02:27:01.000000+00:00 app[api]: Build started by user mckiyoshi@gmail.com
-2019-12-18T02:27:17.117096+00:00 heroku[web.1]: State changed from down to starting
-2019-12-18T02:27:16.635113+00:00 app[api]: Release v12 created by user mckiyoshi@gmail.com
-2019-12-18T02:27:16.635113+00:00 app[api]: Deploy d93b7cc8 by user mckiyoshi@gmail.com
-2019-12-18T02:27:17.000000+00:00 app[api]: Build succeeded
-2019-12-18T02:27:20.763355+00:00 heroku[web.1]: Starting process with command `npm start`
-2019-12-18T02:27:24.709725+00:00 app[web.1]: 
-2019-12-18T02:27:24.709750+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
-2019-12-18T02:27:24.709752+00:00 app[web.1]: > node server.js
-2019-12-18T02:27:24.709754+00:00 app[web.1]: 
-2019-12-18T02:27:27.128344+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
-2019-12-18T02:27:27.129719+00:00 app[web.1]: App running on port 25326!
-2019-12-18T02:27:27.162942+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-2019-12-18T02:27:27.162946+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
-2019-12-18T02:27:27.162949+00:00 app[web.1]: name: 'MongoNetworkError',
-2019-12-18T02:27:27.162952+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
-2019-12-18T02:27:27.162954+00:00 app[web.1]: }]
-2019-12-18T02:27:27.162956+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
-2019-12-18T02:27:27.162958+00:00 app[web.1]: at Pool.emit (events.js:210:5)
-2019-12-18T02:27:27.162960+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
-2019-12-18T02:27:27.162962+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
-2019-12-18T02:27:27.162965+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
-2019-12-18T02:27:27.162967+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
-2019-12-18T02:27:27.162969+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
-2019-12-18T02:27:27.162971+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
-2019-12-18T02:27:27.162973+00:00 app[web.1]: at Socket.emit (events.js:210:5)
-2019-12-18T02:27:27.162975+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
-2019-12-18T02:27:27.162977+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-2019-12-18T02:27:27.162979+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
-2019-12-18T02:27:27.165009+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-12-18T02:27:27.165148+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-12-18T02:27:27.669003+00:00 heroku[web.1]: State changed from starting to up
-2019-12-18T02:29:24.000000+00:00 app[api]: Build started by user mckiyoshi@gmail.com
-2019-12-18T02:29:39.169044+00:00 app[api]: Release v13 created by user mckiyoshi@gmail.com
-2019-12-18T02:29:39.169044+00:00 app[api]: Deploy c1b211b7 by user mckiyoshi@gmail.com
-2019-12-18T02:29:39.753094+00:00 heroku[web.1]: Restarting
-2019-12-18T02:29:39.767462+00:00 heroku[web.1]: State changed from up to starting
-2019-12-18T02:29:40.000000+00:00 app[api]: Build succeeded
-2019-12-18T02:29:41.837017+00:00 heroku[web.1]: Starting process with command `npm start`
-2019-12-18T02:29:42.315754+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2019-12-18T02:29:42.432415+00:00 heroku[web.1]: Process exited with status 143
-2019-12-18T02:29:43.728654+00:00 app[web.1]: 
-2019-12-18T02:29:43.728679+00:00 app[web.1]: > mongoose_skeleton@1.0.0 start /app
-2019-12-18T02:29:43.728682+00:00 app[web.1]: > node server.js
-2019-12-18T02:29:43.728684+00:00 app[web.1]: 
-2019-12-18T02:29:44.344639+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
-2019-12-18T02:29:44.345387+00:00 app[web.1]: App running on port 19100!
-2019-12-18T02:29:44.355284+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
-2019-12-18T02:29:44.355286+00:00 app[web.1]: at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1129:14) {
-2019-12-18T02:29:44.355288+00:00 app[web.1]: name: 'MongoNetworkError',
-2019-12-18T02:29:44.355290+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
-2019-12-18T02:29:44.355292+00:00 app[web.1]: }]
-2019-12-18T02:29:44.355294+00:00 app[web.1]: at Pool.<anonymous> (/app/node_modules/mongodb/lib/core/topologies/server.js:433:11)
-2019-12-18T02:29:44.355295+00:00 app[web.1]: at Pool.emit (events.js:210:5)
-2019-12-18T02:29:44.355297+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:571:14
-2019-12-18T02:29:44.355298+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/pool.js:994:11
-2019-12-18T02:29:44.355300+00:00 app[web.1]: at /app/node_modules/mongodb/lib/core/connection/connect.js:40:11
-2019-12-18T02:29:44.355301+00:00 app[web.1]: at callback (/app/node_modules/mongodb/lib/core/connection/connect.js:262:5)
-2019-12-18T02:29:44.355303+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connect.js:287:7)
-2019-12-18T02:29:44.355305+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
-2019-12-18T02:29:44.355306+00:00 app[web.1]: at Socket.emit (events.js:210:5)
-2019-12-18T02:29:44.355308+00:00 app[web.1]: at emitErrorNT (internal/streams/destroy.js:92:8)
-2019-12-18T02:29:44.355309+00:00 app[web.1]: at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
-2019-12-18T02:29:44.355311+00:00 app[web.1]: at processTicksAndRejections (internal/process/task_queues.js:80:21)
-2019-12-18T02:29:44.355394+00:00 app[web.1]: (node:23) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-2019-12-18T02:29:44.355537+00:00 app[web.1]: (node:23) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-2019-12-18T02:29:44.845913+00:00 heroku[web.1]: State changed from starting to up
+2019-12-18T02:37:23.654435+00:00 app[web.1]: }
+2019-12-18T02:37:23.654699+00:00 app[web.1]: {
+2019-12-18T02:37:23.654702+00:00 app[web.1]: _id: 5df990e21eb1540017ea7180,
+2019-12-18T02:37:23.654704+00:00 app[web.1]: title: 'How to build performant web applications for slow networks',
+2019-12-18T02:37:23.654706+00:00 app[web.1]: link: 'https://blog.logrocket.com/building-performant-web-applications-slow-networks/',
+2019-12-18T02:37:23.654708+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.654710+00:00 app[web.1]: }
+2019-12-18T02:37:23.654909+00:00 app[web.1]: {
+2019-12-18T02:37:23.654912+00:00 app[web.1]: _id: 5df990e21eb1540017ea7185,
+2019-12-18T02:37:23.654914+00:00 app[web.1]: title: 'Best SEO with Gatsby JS',
+2019-12-18T02:37:23.654917+00:00 app[web.1]: link: 'https://gregberge.com/blog/gatsby-seo/',
+2019-12-18T02:37:23.654918+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.654920+00:00 app[web.1]: }
+2019-12-18T02:37:23.655127+00:00 app[web.1]: {
+2019-12-18T02:37:23.655130+00:00 app[web.1]: _id: 5df990e21eb1540017ea718a,
+2019-12-18T02:37:23.655132+00:00 app[web.1]: title: '🚥 Vue Slick Carousel with True SSR Written for Faster Web',
+2019-12-18T02:37:23.655134+00:00 app[web.1]: link: 'https://github.com/gs-shop/vue-slick-carousel',
+2019-12-18T02:37:23.655136+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.655155+00:00 app[web.1]: }
+2019-12-18T02:37:23.656823+00:00 app[web.1]: {
+2019-12-18T02:37:23.656827+00:00 app[web.1]: _id: 5df990e21eb1540017ea7171,
+2019-12-18T02:37:23.656829+00:00 app[web.1]: title: 'Go channels in JS (3/5): Closing',
+2019-12-18T02:37:23.656831+00:00 app[web.1]: link: 'https://dev.to/zenika/go-channels-in-js-3-5-closing-4l6l',
+2019-12-18T02:37:23.656833+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.656835+00:00 app[web.1]: }
+2019-12-18T02:37:23.657039+00:00 app[web.1]: {
+2019-12-18T02:37:23.657042+00:00 app[web.1]: _id: 5df990e21eb1540017ea7177,
+2019-12-18T02:37:23.657044+00:00 app[web.1]: title: 'Internationalize React apps. 👔Elegant lightweight(1.6kB) library',
+2019-12-18T02:37:23.657046+00:00 app[web.1]: link: 'https://github.com/ibitcy/eo-locale',
+2019-12-18T02:37:23.657048+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.657050+00:00 app[web.1]: }
+2019-12-18T02:37:23.657254+00:00 app[web.1]: {
+2019-12-18T02:37:23.657257+00:00 app[web.1]: _id: 5df990e21eb1540017ea717c,
+2019-12-18T02:37:23.657259+00:00 app[web.1]: title: 'Const Assertions in Literal Expressions in TypeScript',
+2019-12-18T02:37:23.657261+00:00 app[web.1]: link: 'https://mariusschulz.com/blog/const-assertions-in-literal-expressions-in-typescript',
+2019-12-18T02:37:23.657263+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.657265+00:00 app[web.1]: }
+2019-12-18T02:37:23.657449+00:00 app[web.1]: {
+2019-12-18T02:37:23.657452+00:00 app[web.1]: _id: 5df990e21eb1540017ea7181,
+2019-12-18T02:37:23.657454+00:00 app[web.1]: title: '💡 DevTips: Use early returns to avoid nested conditions',
+2019-12-18T02:37:23.657456+00:00 app[web.1]: link: 'https://dev.to/yvonnickfrin/devtips-use-early-returns-to-avoid-nested-conditions-4i51',
+2019-12-18T02:37:23.657458+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.657460+00:00 app[web.1]: }
+2019-12-18T02:37:23.657648+00:00 app[web.1]: {
+2019-12-18T02:37:23.657650+00:00 app[web.1]: _id: 5df990e21eb1540017ea7186,
+2019-12-18T02:37:23.657653+00:00 app[web.1]: title: 'Build an Awesome Developer Portfolio Website Using React',
+2019-12-18T02:37:23.657655+00:00 app[web.1]: link: 'https://levelup.gitconnected.com/build-an-awesome-developer-portfolio-website-using-react-667abd7bab4d?source=friends_link&sk=128b34f902f9363ef9f6f18125e58b06',
+2019-12-18T02:37:23.657657+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.657659+00:00 app[web.1]: }
+2019-12-18T02:37:23.657845+00:00 app[web.1]: {
+2019-12-18T02:37:23.657848+00:00 app[web.1]: _id: 5df990e21eb1540017ea718b,
+2019-12-18T02:37:23.657850+00:00 app[web.1]: title: 'How to Use the Web Share API',
+2019-12-18T02:37:23.657852+00:00 app[web.1]: link: 'https://blog.bitsrc.io/how-to-use-the-web-share-api-99460be88ad8',
+2019-12-18T02:37:23.657854+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.657856+00:00 app[web.1]: }
+2019-12-18T02:37:23.670518+00:00 app[web.1]: {
+2019-12-18T02:37:23.670522+00:00 app[web.1]: _id: 5df990e21eb1540017ea7172,
+2019-12-18T02:37:23.670524+00:00 app[web.1]: title: 'Vue Testing Crash Course',
+2019-12-18T02:37:23.670526+00:00 app[web.1]: link: 'https://dev.to/blacksonic/vue-testing-crash-course-59kl',
+2019-12-18T02:37:23.670529+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.670531+00:00 app[web.1]: }
+2019-12-18T02:37:23.670731+00:00 app[web.1]: {
+2019-12-18T02:37:23.670734+00:00 app[web.1]: _id: 5df990e21eb1540017ea7173,
+2019-12-18T02:37:23.670737+00:00 app[web.1]: title: 'Purify: Library for functional programming in TypeScript',
+2019-12-18T02:37:23.670739+00:00 app[web.1]: link: 'https://gigobyte.github.io/purify/',
+2019-12-18T02:37:23.670741+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.670743+00:00 app[web.1]: }
+2019-12-18T02:37:23.670955+00:00 app[web.1]: {
+2019-12-18T02:37:23.670958+00:00 app[web.1]: _id: 5df990e21eb1540017ea7178,
+2019-12-18T02:37:23.670960+00:00 app[web.1]: title: 'Create GraphQL Enums with Hasura Enum Tables',
+2019-12-18T02:37:23.670963+00:00 app[web.1]: link: 'https://codedaily.io/tutorials/171/Create-GraphQL-Enums-with-Hasura-Enum-Tables',
+2019-12-18T02:37:23.670964+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.670966+00:00 app[web.1]: }
+2019-12-18T02:37:23.671230+00:00 app[web.1]: {
+2019-12-18T02:37:23.671233+00:00 app[web.1]: _id: 5df990e21eb1540017ea717d,
+2019-12-18T02:37:23.671235+00:00 app[web.1]: title: 'Go channels in JS (2/5): Buffering',
+2019-12-18T02:37:23.671237+00:00 app[web.1]: link: 'https://dev.to/zenika/go-channels-in-js-2-5-buffering-20ng',
+2019-12-18T02:37:23.671239+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.671241+00:00 app[web.1]: }
+2019-12-18T02:37:23.671514+00:00 app[web.1]: {
+2019-12-18T02:37:23.671517+00:00 app[web.1]: _id: 5df990e21eb1540017ea7182,
+2019-12-18T02:37:23.671525+00:00 app[web.1]: title: 'Integrate MediatR with Hangfire',
+2019-12-18T02:37:23.671527+00:00 app[web.1]: link: 'https://github.com/AliBayatGH/CommandScheduler',
+2019-12-18T02:37:23.671529+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.671531+00:00 app[web.1]: }
+2019-12-18T02:37:23.671765+00:00 app[web.1]: {
+2019-12-18T02:37:23.671768+00:00 app[web.1]: _id: 5df990e21eb1540017ea7187,
+2019-12-18T02:37:23.671771+00:00 app[web.1]: title: 'Diving Into React Suspense Render-as-You-Fetch for REST APIs. Obsolete useEffect based data fetching.',
+2019-12-18T02:37:23.671773+00:00 app[web.1]: link: 'https://blog.axlight.com/posts/diving-into-react-suspense-render-as-you-fetch-for-rest-apis/',
+2019-12-18T02:37:23.671775+00:00 app[web.1]: __v: 0
+2019-12-18T02:37:23.671777+00:00 app[web.1]: }
+2019-12-18T02:37:23.675981+00:00 app[web.1]: [0mGET /articles [32m200 [0m562.299 ms - 5443[0m
+2019-12-18T02:37:32.147346+00:00 heroku[router]: at=info method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=d08fe8a2-3054-4139-ad53-242398572ede fwd="141.166.128.227" dyno=web.1 connect=0ms service=14ms status=200 bytes=5654 protocol=http
+2019-12-18T02:37:32.146515+00:00 app[web.1]: [0mGET /articles [32m200 [0m12.943 ms - 5443[0m
+2019-12-18T02:37:45.961431+00:00 heroku[router]: at=info method=GET path="/" host=newsscrape-fka.herokuapp.com request_id=47dedbd1-ec80-4f5b-99b4-6dbf1bfa0fe9 fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
+2019-12-18T02:37:45.960367+00:00 app[web.1]: [0mGET / [36m304 [0m0.663 ms - -[0m
+2019-12-18T02:37:46.042034+00:00 app[web.1]: [0mGET /app.js [36m304 [0m0.560 ms - -[0m
+2019-12-18T02:37:46.182185+00:00 app[web.1]: [0mGET /articles [36m304 [0m10.910 ms - -[0m
+2019-12-18T02:37:46.042902+00:00 heroku[router]: at=info method=GET path="/app.js" host=newsscrape-fka.herokuapp.com request_id=802e1ddd-3a7c-4b25-9538-8e7b5156baa5 fwd="141.166.128.227" dyno=web.1 connect=0ms service=2ms status=304 bytes=237 protocol=https
+2019-12-18T02:37:46.183175+00:00 heroku[router]: at=info method=GET path="/articles" host=newsscrape-fka.herokuapp.com request_id=cfb5258d-6655-40ae-a1d4-d2fe071ae70b fwd="141.166.128.227" dyno=web.1 connect=1ms service=12ms status=304 bytes=152 protocol=https
